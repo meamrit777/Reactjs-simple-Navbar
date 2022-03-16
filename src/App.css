@@ -15,7 +15,6 @@
 .design,
 .development {
   display: flex;
-  height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
@@ -28,6 +27,7 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  height: 90vh;
 }
 
 .services {
@@ -37,6 +37,7 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  height: 90vh;
 }
 
 .products {
@@ -44,8 +45,21 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  color: rgb(82, 49, 49);
+  font-size: 30px;
+  height: 20vh;
+}
+.container {
+  margin: 0 50px;
+}
+.p-button {
+  display: block;
+  background: #009dff;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: aqua;
 }
 
 .contact-us {
@@ -54,6 +68,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  height: 90vh;
   font-size: 100px;
 }
 
@@ -64,6 +79,7 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  height: 90vh;
   text-decoration: none;
 }
 
@@ -73,6 +89,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  height: 90vh;
   font-size: 100px;
 }
 
@@ -82,6 +99,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  height: 90vh;
+  height: 90vh;
   font-size: 100px;
 }
 
@@ -100,5 +119,18 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  height: 90vh;
   font-size: 100px;
+}
+.for-image {
+  height: 100px;
+  width: 100%px;
+}
+.grid-items {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.product-flex {
+  display: flex;
+  flex-direction: column;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
 
-export default function ContactUs() {
-  return <h1 className='contact-us'>CONTACT</h1>;
+export default function Design() {
+  return <h1 className='design'>DESIGN</h1>;
 }

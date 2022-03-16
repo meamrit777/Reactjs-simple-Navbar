@@ -11,6 +11,8 @@ import Marketing from './components/pages/Marketing';
 import Consulting from './components/pages/Consulting';
 import Design from './components/pages/Design';
 import Development from './components/pages/Development'
+import ProductDetail from './components/pages/product/ProductDetail';
+
 
 function App() {
   return (
@@ -26,7 +28,9 @@ function App() {
         <Route path='/consulting' component={Consulting} />
         <Route path='/Design' component={Design} />
         <Route path='/Development' component={Development} />
-      </Switch>
+        <Route path='/productDetails' component={ProductDetail} />
+
+     </Switch>
     </Router>
   );
 }
