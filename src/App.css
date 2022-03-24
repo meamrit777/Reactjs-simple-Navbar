@@ -123,14 +123,33 @@
   font-size: 100px;
 }
 .for-image {
-  height: 100px;
-  width: 100%px;
+  height: 200px;
+  width: 140px;
 }
 .grid-items {
   display: grid;
   grid-template-columns: auto auto auto;
 }
 .product-flex {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+.dropdown-category {
+  width: 200px;
+}
+.flex-product {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+.left-select {
+  width: 30%;
+}
+.right-detail {
+  width: 70%;
+}
+@media screen and (max-width: 960px) {
+  .container {
+    margin: 0 2%;
+  }
 }

@@ -11,10 +11,10 @@ export const setProducts = (products) => {
     payload: products,
   };
 };
-export const selectedProduct = (product) => {
+export const selectedProduct = (theProduct) => {
   return {
     type: ActionTypes.SELECTED_PRODUCT,
-    payload: product,
+    payload: theProduct,
   };
 };
 export const removeSelectedProduct = () => {

@@ -5,29 +5,23 @@ import ProductComponent from "./product/ProductComponent";
 import { fetchProducts } from "../../redux/actions/ProductsActions";
 
 const Products = () => {
-  const products = useSelector((state) => state);
-  console.log(products);
+  // const products = useSelector((state) => state);
+  // console.log(products);
   const dispatch = useDispatch();
 
-  // const fetchProducts = async () => {
-  //   const response = await axios
-  //     .get("https://fakestoreapi.com/products")
-  //     .catch((err) => {
-  //       console.log("err:", err);
-  //     });
-  //   dispatch(setProducts(response.data));
-  // };
-  
   useEffect(() => {
     dispatch(fetchProducts());
   }, []);
 
-  // console.log("Products :", products);
   return (
-    <div className="container">
-      <h1 className="products">PRODUCTS</h1>
-      <div className="grid-items">
-        <ProductComponent />
+    <div>
+      <div>
+        <h1 className="products">PRODUCTS</h1>
+      </div>
+      <div className="container">
+        <div className="grid-items">
+          <ProductComponent />
+        </div>
       </div>
     </div>
   );

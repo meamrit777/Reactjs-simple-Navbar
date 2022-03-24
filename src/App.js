@@ -12,7 +12,7 @@ import Consulting from './components/pages/Consulting';
 import Design from './components/pages/Design';
 import Development from './components/pages/Development'
 import ProductDetail from './components/pages/product/ProductDetail';
-
+import "antd/dist/antd.css";
 
 function App() {
   return (

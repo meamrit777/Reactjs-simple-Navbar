@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import "./ProductDetail.css";
 import queryString from "query-string";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -7,12 +8,12 @@ import {
   removeSelectedProduct,
 } from "../../../redux/actions/ProductsActions";
 import axios from "axios";
-import "./ProductDetail.css";
+import fakestoreApi from "../api/fakestoreApi";
+
+//fakestoreApi.get("/products");
 
 const ProductDetail = () => {
   const product = useSelector((state) => state.product);
-  // console.log("product:", product);
-  // const { image, title, price, category, description } = product;
   const location = useLocation();
   const dispatch = useDispatch();
 
@@ -40,12 +41,12 @@ const ProductDetail = () => {
       {Object.keys(product).length === 0 ? (
         <div className="loading-pos">
           <figure>
-    <div className="dot white"></div>
-    <div className="dot"></div>
-    <div className="dot"></div>
-    <div className="dot"></div>
-    <div className="dot"></div>
-</figure>
+            <div className="dot white"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
+          </figure>
         </div>
       ) : (
         <div className="">
@@ -56,7 +57,7 @@ const ProductDetail = () => {
               </div>
               <div>
                 <p>{product.title}</p>
-                {/* or of we define  const { image, title, price, category, description } = product; then
+                {/* or we define  const { image, title, price, category, description } = product; then
                 only {title} {price} can be done*/}
                 <p>
                   <a>${product.price}</a>
