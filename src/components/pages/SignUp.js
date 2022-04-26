@@ -8,7 +8,7 @@ export default function SignUp() {
   const [isSubmit, setIsSubmit] = useState(false);
 
   const handleChange = (e) => {
-    // console.log(e.target);
+    console.log(e.target);
     const { name, value } = e.target;
     setFormValues({ ...formValues, [name]: value });
     console.log(formValues);
@@ -27,7 +27,7 @@ export default function SignUp() {
 
   const validate = (values) => {
     const errors = {};
-    const regex = /^[a-zA-Z0-9]+@(?:[a-zA-Z0-9]+\.)+[A-Za-z]+$/;
+    // const regex = /^[a-zA-Z0-9]+@(?:[a-zA-Z0-9]+\.)+[A-Za-z]+$/;
     if (!values.username) {
       errors.username = "Username is required !";
     }
@@ -58,7 +58,7 @@ export default function SignUp() {
               onChange={handleChange}
             />
           </div>
-          <br/>
+          <br />
           <p className="error-msg">{formErrors.username}</p>
           <div className="input-container ic1">
             <label for="email" className="placeholder">
@@ -73,7 +73,7 @@ export default function SignUp() {
               onChange={handleChange}
             />
           </div>
-          <br/>
+          <br />
           <p className="error-msg">{formErrors.email}</p>
           <div className="input-container ic1">
             <label for="Password" className="placeholder">
@@ -88,7 +88,7 @@ export default function SignUp() {
               onChange={handleChange}
             />
           </div>
-          <br/>
+          <br />
           <p className="error-msg">{formErrors.password}</p>
           <button type="text" className="submit">
             submit

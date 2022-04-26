@@ -20,9 +20,10 @@ const ProductComponent = () => {
       .catch((err) => {
         console.log("Err", err);
       });
-    console.log("response", response);
+    console.log("response:", response);
     if (response.status == 200) {
-      setGetProductDetail(response.data);
+      setGetProductDetail(response.data);//there are {config,data{id,title etc},headers,request(status,statusText)}
+      //we set data only
       // console.log("data", response.data);
       dispatch(selectedProduct(response.data));
     }
