@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Reactjs-simple-Navbar/static/css/main.b10d9153.chunk.css",
+    "main.js": "/Reactjs-simple-Navbar/static/js/main.e7d4f6d1.chunk.js",
+    "main.js.map": "/Reactjs-simple-Navbar/static/js/main.e7d4f6d1.chunk.js.map",
+    "runtime-main.js": "/Reactjs-simple-Navbar/static/js/runtime-main.e6aed3d0.js",
+    "runtime-main.js.map": "/Reactjs-simple-Navbar/static/js/runtime-main.e6aed3d0.js.map",
+    "static/css/2.4e8a190c.chunk.css": "/Reactjs-simple-Navbar/static/css/2.4e8a190c.chunk.css",
+    "static/js/2.7dbff071.chunk.js": "/Reactjs-simple-Navbar/static/js/2.7dbff071.chunk.js",
+    "static/js/2.7dbff071.chunk.js.map": "/Reactjs-simple-Navbar/static/js/2.7dbff071.chunk.js.map",
+    "index.html": "/Reactjs-simple-Navbar/index.html",
+    "precache-manifest.e1d5a49429bfc5ec1be5cf06e2ec857d.js": "/Reactjs-simple-Navbar/precache-manifest.e1d5a49429bfc5ec1be5cf06e2ec857d.js",
+    "service-worker.js": "/Reactjs-simple-Navbar/service-worker.js",
+    "static/css/2.4e8a190c.chunk.css.map": "/Reactjs-simple-Navbar/static/css/2.4e8a190c.chunk.css.map",
+    "static/css/main.b10d9153.chunk.css.map": "/Reactjs-simple-Navbar/static/css/main.b10d9153.chunk.css.map",
+    "static/js/2.7dbff071.chunk.js.LICENSE.txt": "/Reactjs-simple-Navbar/static/js/2.7dbff071.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Reactjs-simple-Navbar/static/media/img-8.d48f838f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6aed3d0.js",
+    "static/css/2.4e8a190c.chunk.css",
+    "static/js/2.7dbff071.chunk.js",
+    "static/css/main.b10d9153.chunk.css",
+    "static/js/main.e7d4f6d1.chunk.js"
+  ]
+}
